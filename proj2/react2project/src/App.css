@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #000;
+  height: 100%; 
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%; 
+  height: 100%; 
+  margin: auto; 
+}
+
+.photocard {
+  height: 20rem;
+  width: 20rem;
+  background: #7ab896;
+  border-radius: 1rem;
+  margin: 1rem;
+}
